@@ -1,0 +1,24 @@
+{
+  "name": "sp-mock",
+  "version": "1.0.0",
+  "description": "Common mock data by mockjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z41z/sp-mock.git"
+  },
+  "keywords": [
+    "mock",
+    "mockjs",
+    "mock-data"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z41z/sp-mock/issues"
+  },
+  "homepage": "https://github.com/z41z/sp-mock#readme"
+}
