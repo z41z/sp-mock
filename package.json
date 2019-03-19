@@ -1,10 +1,10 @@
 {
-  "name": "sp-mock",
-  "version": "1.0.0",
+  "name": "sp-mockjs",
+  "version": "1.0.1",
   "description": "Common mock data by mockjs",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production --config webpack.config.js"
+    "build": "node build && webpack --mode production --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/z41z/sp-mock/issues"
   },
-  "homepage": "https://github.com/z41z/sp-mock#readme"
+  "homepage": "https://github.com/z41z/sp-mock#readme",
+  "devDependencies": {
+    "mockjs": "^1.0.1-beta3"
+  }
 }

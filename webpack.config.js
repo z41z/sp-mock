@@ -11,7 +11,8 @@ module.exports = {
     extensions: ['.js']
   },
   module: {},
-  externals: [''],
-  plugins: [
-  ]
+  externals: [{
+    mockjs: 'mockjs'
+  }],
+  plugins: []
 }
