@@ -1,16 +1,17 @@
 # sp-mock
 
-Common mock data by mockjs
+Common mock data by [mockjs](http://mockjs.com/)
 
 ## Install
 
 ``` node
-  npm i sp-mockjs //or yarn add sp-mockjs
+  npm i mockjs sp-mockjs //or yarn add mockjs sp-mockjs
 ```
 
 ## CDN
 
 ``` js
+  <script src="https://unpkg.com/mockjs/dist/mock-min.js"></script>
   <script src="https://unpkg.com/sp-mockjs/dist/index.min.js"></script>
   <script>
     __Mock.name();
