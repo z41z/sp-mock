@@ -29,8 +29,11 @@ Common mock data by [mockjs](http://mockjs.com/)
     email,
     phoneNumber,
     date,
+    image,
     ip,
-    url
+    url,
+    color,
+    region
   } = require("sp-mockjs")
 ```
 
