@@ -33,7 +33,8 @@ Common mock data by [mockjs](http://mockjs.com/)
     ip,
     url,
     color,
-    region
+    region,
+    idCard
   } = require("sp-mockjs")
 ```
 
@@ -252,4 +253,34 @@ Common mock data by [mockjs](http://mockjs.com/)
       showParent: true
     })
     //return [ '河北省秦皇岛市北戴河区', '江苏省常州市金坛市' ]
+  ```
+
+* idCard(obj = {})
+  * {Object} obj
+    * {Object} obj 
+    * {Number} obj.area 6位地区编码
+    * {Number} obj.year 4位年
+    * {Number} obj.month 2位月
+    * {Number} obj.day 2位日
+    * {Number} obj.policeNum 2位派出所识别号
+    * {Number} obj.gender 1位性别 0:女 1:南 2:不限
+    * {Number} obj.len 长度
+
+  ``` js
+    idCard()
+    // return 513592194904256072
+    idCard({
+      len: 2
+    })
+    // return [ '55276319660824862X', '194483193107205410' ]
+    idCard({
+      area: '520100',
+      year: '1969',
+      month: '09',
+      day: '13',
+      policeNum: '99',
+      gender: 0,
+      len: 2
+    })
+    // return [ '520100196909139907', '52010019690913994X' ]
   ```
